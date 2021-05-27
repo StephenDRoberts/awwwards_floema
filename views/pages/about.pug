@@ -41,7 +41,7 @@ block content
 
         if section.slice_type == 'gallery'
           section.about__gallery
-            .about_gallery__wrapper
+            .about__gallery__wrapper
               each media in section.items
                 figure.about__gallery__media
                   img.about__gallery__media__image(alt=media.image.alt, src=media.image.url)
